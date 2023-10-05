@@ -1,0 +1,20 @@
+# Headers and Sources
+#
+lib{linenoise}: {h c}{linenoise}
+
+# Build options.
+#
+c.poptions =+ "-I$src_base"
+
+# Export options.
+#
+lib{linenoise}: c.export.poptions = "-I$src_base"
+
+# For pre-releases use the complete version to make sure they cannot be used
+# in place of another pre-release or the final version. See the version module
+# for details on the version.* variable values.
+#
+if $version.pre_release
+  lib{linenoise}: bin.lib.version = "-$version.project_id"
+else
+  lib{linenoise}: bin.lib.version = "-$version.major.$version.minor"

@@ -1,0 +1,18 @@
+: 1
+name: liblinenoise
+version: 1.0.1-a.1
+language: c
+project: linenoise
+summary: A minimal, zero-config, BSD licensed, readline replacement used in Redis, MongoDB, Android and many other projects.
+license: BSD-2-Clause
+
+description-file: README.md
+url: https://github.com/antirez/linenoise
+email: antirez@gmail.com
+
+package-description-file: PACKAGE-README.md
+package-url: https://github.com/build2-packaging/linenoise
+package-email: packaging@build2.org
+
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0

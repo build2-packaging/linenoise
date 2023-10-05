@@ -1,0 +1,6 @@
+$out_root/
+{
+  include linenoise/
+}
+
+export $out_root/linenoise/$import.target
