@@ -16,3 +16,5 @@ package-email: packaging@build2.org
 
 depends: * build2 >= 0.16.0
 depends: * bpkg >= 0.16.0
+
+builds: -windows ; Windows is not supported by linenoise.
