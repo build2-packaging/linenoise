@@ -44,7 +44,8 @@ There are no configuration options available.
 
 ## Issues and Notes
 
-Currently, there are no known issues.
+- Windows is not support by `linenoise`.
+- At the point of writing, the upstream `linenoise` repository only provides the single release tag `1.0` that is older than eight years. To also get access to the newest changes without introducing name clashes with a possible second release, version `1.0.1-a.1` is used for the package.
 
 ## Contributing
 
