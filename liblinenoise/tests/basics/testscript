@@ -1,0 +1,12 @@
+: basic-io
+: Test basic input and output of commands.
+:
+$* <<EOI >>EOO &history.txt == 0
+test
+help
+run
+EOI
+echo: 'test'
+echo: 'help'
+echo: 'run'
+EOO

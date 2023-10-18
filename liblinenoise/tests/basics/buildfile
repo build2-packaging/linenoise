@@ -1,2 +1,2 @@
 import linenoise = liblinenoise%lib{linenoise}
-exe{basics}: {h c}{**} $linenoise
+exe{basics}: {h c}{**} $linenoise testscript
