@@ -1,6 +1,6 @@
 : 1
 name: liblinenoise
-version: 1.0.1-a.1
+version: 1.0.1-a.1+1
 language: c
 project: linenoise
 summary: A minimal, zero-config, BSD licensed, readline replacement used in Redis, MongoDB, Android and many other projects.
